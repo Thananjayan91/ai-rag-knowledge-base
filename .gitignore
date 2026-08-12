@@ -147,6 +147,10 @@ activemq-data/
 # SageMath parsed files
 *.sage.py
 
+# Embedded Qdrant storage
+qdrant_data/
+data/projects.json
+
 # Environments
 .env
 .envrc
