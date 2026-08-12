@@ -1,6 +1,6 @@
 import tiktoken
 
-from app.extraction import ExtractedPage
+from backend.extraction import ExtractedPage
 
 _encoding = tiktoken.get_encoding("cl100k_base")
 

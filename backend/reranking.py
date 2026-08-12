@@ -1,6 +1,6 @@
 from sentence_transformers import CrossEncoder
 
-from app.config import settings
+from backend.config import settings
 
 _model: CrossEncoder | None = None
 

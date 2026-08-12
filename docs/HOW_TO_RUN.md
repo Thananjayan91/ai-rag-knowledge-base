@@ -19,14 +19,14 @@ No Docker or database setup needed — Qdrant runs embedded and stores its data 
 **Terminal 1 — API:**
 ```bash
 .venv\Scripts\activate
-uvicorn app.main:app --reload
+uvicorn backend.main:app --reload
 ```
 Runs at http://localhost:8000 (Swagger docs at http://localhost:8000/docs).
 
 **Terminal 2 — UI:**
 ```bash
 .venv\Scripts\activate
-streamlit run ui/streamlit_app.py
+streamlit run frontend/streamlit_app.py
 ```
 Opens at http://localhost:8501.
 

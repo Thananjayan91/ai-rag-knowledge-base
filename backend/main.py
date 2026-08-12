@@ -5,9 +5,9 @@ from pathlib import Path
 from fastapi import FastAPI, File, Form, HTTPException, UploadFile
 from pydantic import BaseModel
 
-from app.projects import collection_name, create_project, delete_project, get_project, list_projects
-from app.rag import answer_question, ingest_document
-from app.vector_store import delete_collection
+from backend.projects import collection_name, create_project, delete_project, get_project, list_projects
+from backend.rag import answer_question, ingest_document
+from backend.vector_store import delete_collection
 
 app = FastAPI(title="AI RAG Knowledge Base")
 

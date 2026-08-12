@@ -2,13 +2,13 @@ import uuid
 
 from openai import OpenAI
 
-from app.chunking import chunk_pages
-from app.config import settings
-from app.embeddings import embed_text, embed_texts
-from app.extraction import extract_document
-from app.projects import collection_name as project_collection
-from app.reranking import rerank
-from app.vector_store import ensure_collection, search, upsert_chunks
+from backend.chunking import chunk_pages
+from backend.config import settings
+from backend.embeddings import embed_text, embed_texts
+from backend.extraction import extract_document
+from backend.projects import collection_name as project_collection
+from backend.reranking import rerank
+from backend.vector_store import ensure_collection, search, upsert_chunks
 
 _client = OpenAI(api_key=settings.openai_api_key)
 

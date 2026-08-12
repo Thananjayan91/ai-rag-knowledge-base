@@ -1,6 +1,6 @@
 from openai import OpenAI
 
-from app.config import settings
+from backend.config import settings
 
 _client = OpenAI(api_key=settings.openai_api_key)
 

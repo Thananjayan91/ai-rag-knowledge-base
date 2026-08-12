@@ -1,7 +1,9 @@
-from pydantic_settings import BaseSettings
+from pydantic_settings import BaseSettings, SettingsConfigDict
 
 
 class Settings(BaseSettings):
+    model_config = SettingsConfigDict(env_file=".env")
+
     openai_api_key: str
     qdrant_url: str = "./qdrant_data"
     embedding_model: str = "text-embedding-3-small"
@@ -12,9 +14,6 @@ class Settings(BaseSettings):
     top_k: int = 5
     retrieval_candidates: int = 20
     reranker_model: str = "cross-encoder/ms-marco-MiniLM-L-6-v2"
-
-    class Config:
-        env_file = ".env"
 
 
 settings = Settings()

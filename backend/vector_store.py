@@ -3,7 +3,7 @@ import uuid
 from qdrant_client import QdrantClient
 from qdrant_client.http.models import Distance, PointStruct, VectorParams
 
-from app.config import settings
+from backend.config import settings
 
 if settings.qdrant_url.startswith("http"):
     _client = QdrantClient(url=settings.qdrant_url)

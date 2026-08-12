@@ -19,7 +19,7 @@ with st.sidebar:
         projects = fetch_projects()
     except requests.exceptions.RequestException:
         st.error(
-            f"Can't reach the API at {API_URL}. Is `uvicorn app.main:app --reload` "
+            f"Can't reach the API at {API_URL}. Is `uvicorn backend.main:app --reload` "
             "running in another terminal?"
         )
         st.stop()
