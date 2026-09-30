@@ -12,6 +12,8 @@ def _get_model() -> CrossEncoder:
     return _model
 
 
+
+
 def rerank(question: str, matches: list[dict], top_n: int) -> list[dict]:
     if not matches:
         return matches

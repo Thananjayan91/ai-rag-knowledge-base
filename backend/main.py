@@ -9,7 +9,19 @@ from backend.projects import collection_name, create_project, delete_project, ge
 from backend.rag import answer_question, ingest_document
 from backend.vector_store import delete_collection
 
+from fastapi.staticfiles import StaticFiles
+from fastapi.responses import FileResponse
+
 app = FastAPI(title="AI RAG Knowledge Base")
+
+static_dir = Path(__file__).parent / "static"
+app.mount("/static", StaticFiles(directory=static_dir), name="static")
+
+
+@app.get("/")
+async def read_index():
+    return FileResponse(static_dir / "index.html")
+
 
 ALLOWED_SUFFIXES = {".pdf", ".docx", ".txt"}
 
