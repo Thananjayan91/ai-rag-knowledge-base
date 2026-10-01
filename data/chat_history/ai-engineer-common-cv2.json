@@ -1,0 +1,54 @@
+[
+  {
+    "id": 1790831453466,
+    "timestamp": 1790831453.4661703,
+    "question": "how about the logistics experience and educaitons/",
+    "answer": "Thananjayan Aruljothy has experience as a Logistics Officer at INSEE Cement from April 2016 to October 2019. In this role, he managed SAP-based order processing, deliveries, invoicing, and operational reporting, coordinating with internal teams and transportation partners [Source 1].\n\nIn terms of education, he holds a Bachelor of Information Technology (BIT) from the University of Colombo, which he completed from 2020 to 2023. He also has a BSc in Transport & Logistics Management from the University of Moratuwa, which he earned from 2011 to 2016 [Source 1].",
+    "sources": [
+      {
+        "filename": "Thananjayan_Aruljothy_AI_Automation_Engineer_CV.pdf",
+        "page": 2,
+        "score": 0.4142,
+        "rerank_score": -9.3728
+      },
+      {
+        "filename": "Thananjayan_Aruljothy_AI_Automation_Engineer_CV.pdf",
+        "page": 1,
+        "score": 0.2684,
+        "rerank_score": -10.5961
+      },
+      {
+        "filename": "Thananjayan_Aruljothy_AI_Automation_Engineer_CV.pdf",
+        "page": 1,
+        "score": 0.2856,
+        "rerank_score": -11.3633
+      }
+    ]
+  },
+  {
+    "id": 1790831482368,
+    "timestamp": 1790831482.3682811,
+    "question": "how about paper qualifications",
+    "answer": "Thananjayan Aruljothy holds a Bachelor of Information Technology (BIT) from the University of Colombo, UCSC, which he completed between 2020 and 2023. Additionally, he has a BSc in Transport & Logistics Management from the University of Moratuwa, obtained between 2011 and 2016 [Source 3].",
+    "sources": [
+      {
+        "filename": "Thananjayan_Aruljothy_AI_Automation_Engineer_CV.pdf",
+        "page": 1,
+        "score": 0.1361,
+        "rerank_score": -10.8763
+      },
+      {
+        "filename": "Thananjayan_Aruljothy_AI_Automation_Engineer_CV.pdf",
+        "page": 1,
+        "score": 0.1845,
+        "rerank_score": -11.3258
+      },
+      {
+        "filename": "Thananjayan_Aruljothy_AI_Automation_Engineer_CV.pdf",
+        "page": 2,
+        "score": 0.2023,
+        "rerank_score": -11.3311
+      }
+    ]
+  }
+]
